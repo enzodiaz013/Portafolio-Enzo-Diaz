@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scable=no">
+    <title>Portafolio Enzo Diaz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                
+                <div class="contenido-header">
+                    <h1>Enzo</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)"> Sobre mi</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">Portafolio</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+
+                    </nav>
+                    <div id="icono-nav" onclick="resposiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://github.com/enzodiaz013"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/enzo-rodrigo-diaz-b808b6265/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span> Enzo Diaz</span> Desarrollador web</h2>
+                <p class="descripcion"> Les doy la bienvenida a mi portafolio web, espero que lo disfuten y me contacten si es necesario.</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+
+            </div>
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/enzito2.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola soy,<span>Enzo Diaz</span></h2>
+            <h3>Desarrollador web</h3>
+            <p>Me llamo Enzo Rodrigo Diaz, soy un desarrollador web formado en Grupo IDT, y actualmente estudiante de la carrera licenciatura en sistemas en la UNLA. Tengo conocimiento en HTML, Css y JavaScript.</p>
+            <p>Soy una persona muy compremtida, me adapto muy rapido a las formas de trabajo, tengo mucha predisposicion a aprender y siempre pienso en positivo.</p>
+            <a href="pdf/Cv (1).pdf">Descargar CV</a>
+        </div>
+    </section>
+    <section id="servicios">
+       <h3 class="titulo-seccion">Mis Servicios</h3>
+       <div class="fila">
+        <div class="servicio">
+            <span class="icono"><i id="html" class="fa-brands fa-html5"></i></span>
+            <h4>Html</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>Poseo conocimiento en Html. </p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i  id="css" class="fa-brands fa-css3-alt"></i></span>
+            <h4>Css</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>Poseo conocimiento en css.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i id="js" class="fa-brands fa-js"></i></span>
+            <h4>JavaScript</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>Poseo conocimientos en JavaScript.</p>
+        </div>
+       </div>
+    </section>
+    <section id="portafolio">
+        <h3 class="titulo-seccion">Mis proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.png"  alt="">
+                <div class="info">
+                   <h4>Seleccion Argentina <a href="https://unrivaled-gnome-ea3363.netlify.app">Ir a la pagina</a></h4> 
+                    <p>Diseño web</p>
+            </div>
+            
+            </div>
+            
+           
+
+        </div>
+    </section>
+    <section id="contacto">
+        
+        <h2 class="titulo-seccion">Contacto</h2>
+        <div class="contactos">
+            <h4 class="mail">Para poder contactar conmigo via mail, puedes escribirme a este mail: <span>enzorodrigok@gmail.com</span></h4>
+            <h4 class="mail">Para poder contactar conmigo via telefonica, puedes escribirme a este numero: <span>+54 1136381477</span></h4>
+            <h4>Tambien puedes visitar mi <span>Linkedin</span> y mi <span>Git Hub</span></h4>
+            <a href="https://www.linkedin.com/in/enzo-rodrigo-diaz-b808b6265/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/enzodiaz013"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+        
+    </section>
+    <section id="footer">
+        Derechos reservados © 2023
+    </section>
+    <script src="script.js"></script>
+    </body>
+</html>
